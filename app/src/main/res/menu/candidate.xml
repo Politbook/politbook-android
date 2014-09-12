@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="org.appeleicao2014.ui.activity.CandidateActivity" >
+
+    <item android:id="@+id/menu_favorite"
+        android:icon="@drawable/rating_not_important_dark"
+        android:title="@string/title_favorite"
+        app:showAsAction="ifRoom|withText" />
+</menu>

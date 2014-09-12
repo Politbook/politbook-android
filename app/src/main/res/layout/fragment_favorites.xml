@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_app">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lvCandidates"
+        android:layout_gravity="center_horizontal|top"
+        android:clipToPadding="false"
+        android:padding="5dp"
+        android:dividerHeight="2dp"
+        android:divider="@android:color/transparent"
+        android:listSelector="@android:color/transparent"/>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pbProgressBar"
+        android:paddingTop="10dp"
+        android:visibility="invisible"
+        android:layout_gravity="center_horizontal|top" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/no_favorite"
+        android:id="@+id/tvFavorite"
+        android:layout_gravity="center"
+        android:textColor="@color/frame_gray"
+        android:visibility="gone"
+        android:drawableTop="@drawable/ic_favorite_big"/>
+</FrameLayout>

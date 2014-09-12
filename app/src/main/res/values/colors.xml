@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bt_blue">#4c8ffb</color>
+    <color name="bt_blue_focus">#2862bf</color>
+    <color name="bt_grey">#999998</color>
+    <color name="bt_grey_focus">#b4b4b4</color>
+    <color name="bt_green">#0f9d58</color>
+    <color name="bt_green_focus">#087a43</color>
+    <color name="bt_red">#dc1522</color>
+    <color name="bt_red_focus">#ab0c16</color>
+
+    <color name="frame_black">#222222</color>
+    <color name="frame_black_focus">#51729b</color>
+    <color name="frame_gray">#4b4b4b</color>
+    <color name="frame_gray_focus">#353535</color>
+
+    <color name="color_action_bar">#009b3a</color>
+    <color name="color_action_tab_bar">#009b3a</color>
+    <color name="color_indicator">#066e3c</color>
+
+    <color name="background_dialog">#d3dfa0</color>
+    <color name="background_menu">#262626</color>
+    <color name="background_menu_line">#232323</color>
+    <color name="background_gray">#25292c</color>
+
+    <color name="color_hint">#e5e5e5</color>
+    <color name="line_grey">#dcdcdc</color>
+    <color name="text_grey">#d1d1d1</color>
+
+    <color name="black">#000000</color>
+    <color name="black_text">#404040</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="black_undo">#626668</color>
+    <color name="button_black_undo">#8b8d8f</color>
+
+    <color name="background_app">#edece2</color>
+    <color name="background_title">#222222</color>
+    <color name="background_divider">#8b8d8f</color>
+
+    <color name="font_sub_title">#888888</color>
+
+    <color name="frame_green">#009b3a</color>
+    <color name="frame_orange">#c85913</color>
+    <color name="frame_yellow">#FFBB33</color>
+    <color name="frame_blue">#4c8ffb</color>
+    <color name="frame_red">#dc1522</color>
+
+    <color name="star">#ea9f00</color>
+    <color name="star2">#dcdcdc</color>
+
+
+</resources>

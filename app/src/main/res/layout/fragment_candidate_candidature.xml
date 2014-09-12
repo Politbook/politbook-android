@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background_app">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lvCandidatures"
+        android:layout_gravity="center_horizontal|top"
+        android:clipToPadding="false"
+        android:padding="5dp"
+        android:dividerHeight="2dp"
+        android:divider="@android:color/transparent"
+        android:listSelector="@android:color/transparent"/>
+
+    <ProgressBar
+        android:paddingTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pbProgressBar"
+        android:layout_gravity="center_horizontal|top"
+        android:visibility="invisible"/>
+
+    <include layout="@layout/no_connection"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/frame_gray"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/no_candidature"
+        android:id="@+id/tvNoItem"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+</FrameLayout>

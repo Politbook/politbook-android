@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frameLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_app" >
+
+
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lvCandidates"
+        android:layout_gravity="center_horizontal|top"
+        android:clipToPadding="false"
+        android:padding="5dp"
+        android:dividerHeight="2dp"
+        android:divider="@android:color/transparent"
+        android:listSelector="@android:color/transparent"/>
+    
+	<TextView
+        android:id="@+id/tvNotFound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="@string/candidate_not_found"
+        android:textColor="@color/background_title"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:visibility="invisible"/>
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/pbProgressBarLess"
+        android:padding="10dp"
+        android:alpha="0.8"
+        android:visibility="invisible"
+        android:layout_gravity="center_horizontal|bottom"
+        android:background="@color/black"/>
+    <include layout="@layout/no_connection_2"/>
+</FrameLayout>

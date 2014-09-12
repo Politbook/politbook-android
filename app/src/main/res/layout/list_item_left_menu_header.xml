@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="5dp"
+    android:paddingTop="15dp"
+    android:paddingRight="5dp"
+    android:paddingBottom="15dp"
+    android:background="@color/line_grey">
+
+    <com.facebook.widget.ProfilePictureView
+        android:id="@+id/ivPhotoUser"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center_horizontal"
+        facebook:preset_size="normal"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginRight="5dp"/>
+
+    <TextView
+        android:id="@+id/tvNameUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/rating_candidate"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/black_undo"
+        android:textStyle="bold"
+        android:layout_toEndOf="@+id/ivPhotoUser"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/ivPhotoUser"
+        />
+</RelativeLayout>

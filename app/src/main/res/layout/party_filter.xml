@@ -1,0 +1,43 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/party"
+            android:id="@+id/tvPartyDesc"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:textColor="@color/black"/>
+
+        <Spinner
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:id="@+id/spParty"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/tvPartyDesc"
+            android:layout_toEndOf="@+id/tvPartyDesc"
+            android:popupBackground="@color/color_action_tab_bar"/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0.5dp"
+            android:inputType="numberSigned"
+            android:ems="10"
+            android:id="@+id/editText"
+            android:background="@color/text_grey"
+            android:layout_alignParentBottom="true"
+      />
+    </RelativeLayout>
+</merge>

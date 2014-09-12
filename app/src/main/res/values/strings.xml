@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_id">275300162494703</string>
+    <string name="app_name">Politbook</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="text">text</string>
+
+    <string name="sent">Enviar</string>
+    <string name="delete">Excluir</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancelar</string>
+    <string name="service_unavailable">O serviço está temporariamente indisponível</string>
+    <string name="check_address">Verifique o endereço do webservice</string>
+    <string name="no_connection">Sem conexão com a Internet</string>
+    <string name="try_again">Tentar novamente</string>
+
+    <string name="title_candidate_menu">CANDIDATOS</string>
+    <string name="title_my_favorite_menu">MEUS CANDIDATOS</string>
+    <string name="title_settings_menu">CONFIGURAÇÕES</string>
+
+    <string name="title_candidate">Candidatos</string>
+    <string name="title_favorite">Favoritos</string>
+    <string name="title_president">Presidente</string>
+    <string name="title_governor">Governador</string>
+    <string name="title_senator">Senador</string>
+    <string name="title_deputy_federal">Deputado Federal</string>
+    <string name="title_deputy_state">Deputado Estadual</string>
+
+    <string name="title_data_personal">Dados Pessoais</string>
+    <string name="title_evaluate">Avaliar</string>
+    <string name="title_equity">Bens</string>
+    <string name="title_candidature">Candidaturas</string>
+    <string name="title_statistics">Estatísticas</string>
+    <string name="title_rating">Avaliação de </string>
+    <string name="title_rating_candidate">Avaliar candidato</string>
+
+    <string name="name">Nome</string>
+    <string name="age">Idade</string>
+    <string name="instruction">Instrução</string>
+    <string name="occupation">Ocupacao</string>
+    <string name="title">Título</string>
+    <string name="enrollment">Matrícula</string>
+    <string name="miniBio">Biografia</string>
+    <string name="positions">Histórico dos cargos</string>
+    <string name="countertops">Bancadas</string>
+    <string name="prediction">Custo previsto da campanha</string>
+    <string name="reelection">Reeleição para o mesmo cargo</string>
+    <string name="processes">Processos</string>
+
+
+    <string name="title_search">Pesquisar</string>
+    <string name="faultsPlenary">Porcentagem de faltas em sessões planárias do candidato</string>
+    <string name="averagePlenary">Média de faltas em plenário da Casa</string>
+    <string name="faultsCommissions">Porcentagem de faltas em sessões de comissões</string>
+    <string name="averageCommissions">Média de faltas em comissões da Casa</string>
+    <string name="evolution">Evolução patrimonial entre 2014 e o último ano em que declarou, corrigido pelo IPCA de julho de 2014</string>
+    <string name="referenceYear">Ano da última declaração de bens disponível</string>
+    <string name="amendments">Porcentagem de emendas do parlamentar atendidas</string>
+    <string name="averageAmendments">Porcentagem de emendas atendidas na Casa à qual o candidato pertence</string>
+
+    <string name="select_state">Selecione um estado</string>
+    <string name="change_state">Alterar estado</string>
+
+    <string name="drawer_open">Abrir menu</string>
+    <string name="drawer_close">Fechar menu</string>
+
+    <string name="add_favorite">Adicionado aos favoritos</string>
+    <string name="remove_favorite">Removido dos favoritos</string>
+    <string name="no_favorite">Você ainda não tem favoritos</string>
+    <string name="no_equity">O candidato não possui bens declarados</string>
+    <string name="no_candidature">O candidato não possui candidaturas</string>
+    <string name="no_candidates">Nenhum candidato encontrado</string>
+
+    <string name="title_search_hint_state">Pesquisar depudatos estaduais</string>
+    <string name="title_search_hint_federal">Pesquisar deputados federais</string>
+
+    <string name="candidate_not_found">Não foram encontradas candidatos</string>
+
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+
+    <string name="all">Todos</string>
+
+    <string name="party">Partido: </string>
+    <string name="state">Estado: </string>
+    <string name="result">Resultado: </string>
+    <string name="city">Município: </string>
+    <string name="votes">Votos: </string>
+    <string name="financialResources">Recursos financeiros: </string>
+
+    <string name="rating_candidate">Avaliar este candidato</string>
+    <string name="my_rating">Minha avaliação</string>
+    <string name="edit">EDITAR</string>
+    <string name="average_candidate">Média do candidato</string>
+
+    <string name="comment_candidate">Informe um comentário sobre o candidato.</string>
+
+    <string name="search_msg">Informe pelo menos quatro caracteres</string>
+    <string-array name="left_menu">
+        <item>Candidatos</item>
+        <item>Favoritos</item>
+        <item>Alterar o estado</item>
+    </string-array>
+</resources>
